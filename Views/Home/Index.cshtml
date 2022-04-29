@@ -1,0 +1,26 @@
+﻿@{
+  // Set the page title which links with the _Layout.cshtml
+  ViewBag.Title = "Home Page";
+}
+@*Page Title and brief description*@
+<div class="text-center">
+    <h1 class="display-4">SportsPro Technical Support</h1>
+    <p>Sports Management Software for the Sports Enthusiasts</p>
+</div>
+<h2>Admin</h2>
+@*Using tag helpers to navigate to required sections*@
+<div class="list-group">
+  <button type="button" class="list-group-item list-group-item-action"><a class="nav-link" asp-controller="product">Manage Products</a></button>
+  
+  <button type="button" class="list-group-item list-group-item-action"><a class="nav-link" asp-controller="technician">Manage Technician</a></button>
+  
+  <button type="button" class="list-group-item list-group-item-action"><a class="nav-link" asp-controller="customer" asp-action="">Manage Customer</a></button>
+  
+  <button type="button" class="list-group-item list-group-item-action"><a class="nav-link" asp-controller="incident" asp-action="">Manage Incident</a></button>
+  
+  <button type="button" class="list-group-item list-group-item-action"><a class="nav-link" asp-controller="registration" asp-action="">Manage Registrations</a></button>
+</div>
+<h2>Technicians</h2>
+<div class="list-group">
+  <button type="button" class="list-group-item list-group-item-action"><a class="nav-link" asp-controller="techincident" asp-action="get">Update Incident</a></button>
+</div>

@@ -1,0 +1,75 @@
+﻿@using GBCSporting_LAIR.Models
+@using GBCSporting_LAIR.Models.ViewModels.IncidentViewModels
+@model IncidentsViewModel
+@{
+    ViewBag.Title = "List Incidents";
+    string filter = ViewBag.Filter;
+}
+
+<script>
+    function deleteIncident(incidentId) {
+        if (!confirm("Are you sure you want to delete this incident?")) {
+            return;
+        } else {
+            fetch(`/incident/delete/${incidentId}`, {
+                method: "POST",
+                body: {}
+            })
+                .then(function (data) {
+                    console.log('Request succeeded with JSON response', data);
+                    location.reload();
+                })
+                .catch(function (error) {
+                    console.log('Request failed', error);
+                });
+        }
+    }
+
+      function editIncident(incidentId) {
+          location.href = "/incident/edit/" + incidentId;
+      }
+</script>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Incident Manager</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a href="/Incident/Add" class="btn btn-primary">Add Incident</a>
+        </div>
+    </div>
+    <br />
+    <div class="list-btn">
+        <a class="btn @(filter == "all" ? "btn-primary" : "btn-link")" asp-controller="Incident" asp-action="Index" asp-route-id="all">All</a>
+        <a class="btn @(filter == "ua" ? "btn-primary" : "btn-link")" asp-controller="Incident" asp-action="Index" asp-route-id="ua">Unassigned</a>
+        <a class="btn @(filter == "open" ? "btn-primary" : "btn-link")" asp-controller="Incident" asp-action="Index" asp-route-id="open">Open Incidents</a>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Customer</th>
+                <th>Products</th>
+                <th>Date Opened</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var incident in Model.Incidents)
+            {
+                <tr>
+                    <td>@incident.Title</td>
+                    <td>@incident.CustomerName</td>
+                    <td>@incident.ProductName</td>
+                    <td>@incident.Date</td>
+                    <td><button class="btn btn-primary" onclick="editIncident(@incident.Id)">Edit</button></td>
+                    <td><button class="btn btn-danger" onclick="deleteIncident(@incident.Id)">Delete</button></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GBCSporting_LAIR
+build_property.RootNamespace = GBCSporting_LAIR
+build_property.ProjectDir = /Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Home/Underconstruction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9VbmRlcmNvbnN0cnVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Incident/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnQvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Incident/AddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnQvQWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Incident/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Incident/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Registration/CustomerSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0cmF0aW9uL0N1c3RvbWVyU2VsZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Registration/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0cmF0aW9uL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Registration/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0cmF0aW9uL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Registration/ProductSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0cmF0aW9uL1Byb2R1Y3RTZWxlY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/TechIncident/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaEluY2lkZW50L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/TechIncident/Get.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaEluY2lkZW50L0dldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/TechIncident/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaEluY2lkZW50L0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Technician/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbi9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Technician/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbi9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Technician/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbi9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Technician/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbi9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Technician/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelaefremova/Desktop/projects/GBCSporting_LAIR-3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-72hr9bblti

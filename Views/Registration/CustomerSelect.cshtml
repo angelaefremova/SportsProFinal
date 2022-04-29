@@ -1,0 +1,44 @@
+﻿@using GBCSporting_LAIR.Models.ViewModels.RegViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AddRegViewModel
+@{
+    ViewData["Title"] = "Edit";
+    string error_message = "";
+  if (TempData.Keys.Contains("error"))
+      error_message +=  TempData["error"];
+}
+<p>@error_message</p>
+<h1>Register new Product</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CustomerSelect">
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label">Select a Customer:</label>
+                <select asp-for="CustomerId" class="form-control">
+                  <option>Please select a customer</option>
+                  @foreach (var c in Model.Customers) {
+                    <option value="@c.CustomerId">@c.FullName</option>
+                  }
+                </select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Next" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
